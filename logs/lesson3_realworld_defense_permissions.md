@@ -25,6 +25,9 @@ sudo chgrp officer /opt/defense/briefings
 sudo chmod 770 /opt/defense/scripts       # engineers only
 sudo chmod 750 /opt/defense/logs          # readable by analysts and root
 sudo chmod 770 /opt/defense/briefings     # officers only
+sudo usermod -aG engineer arash
+sudo usermod -aG analyst saman
+sudo usermod -aG officer majorrahim
 
 
 ---
